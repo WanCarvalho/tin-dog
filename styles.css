@@ -161,6 +161,24 @@ body{
     margin: 20px 10px;
 }
 
+@media (max-width: 720px){
+    
+    #cta {
+        background-color: #ff4c68;
+        color: white;
+        padding: 7% 15%;
+        text-align: center;
+    }
+    
+    .cta-heading{
+        font-family: 'Montserrat-Black', sans-serif;
+        font-weight: 900;
+        font-size: 2.3rem;
+        line-height: 1.5;
+    }
+
+}
+
 @media (max-width: 1028px){
     #testimonials h2 {
         font-family: 'Montserrat';
