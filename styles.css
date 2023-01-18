@@ -35,13 +35,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7% 15%;
 }
 
-#title{
-    text-align: left;
+/* Sections */
+
+.colored-section{
     background-color: #ff4c68;
-    color: white;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 #title .container-fluid {
+    text-align: left;
     padding: 3% 15% 7%;
 }
 
@@ -111,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonials */
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -153,14 +158,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 2%;
 }
 
-
-/* Call to Action (CTA) */
-#cta {
-    background-color: #ff4c68;
-    color: white;
-}
-
-
 /* Footer */
 
 .social-icon {
@@ -170,7 +167,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Queries */
 @media (max-width: 720px){
-    
+
+    #title .container-fluid {
+        text-align: center;
+        padding: 3% 15% 7%;
+    }
+
     #cta {
         background-color: #ff4c68;
         color: white;
@@ -186,6 +188,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1028px){
+
+    #title .container-fluid {
+        text-align: center;
+        padding: 3% 15% 7%;
+    }
+
     #testimonials h2 {
         font-family: 'Montserrat';
         font-size: 1.5rem;
