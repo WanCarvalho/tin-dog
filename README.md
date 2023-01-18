@@ -1,1 +1,1 @@
-![tindog post](https://github.com/WanCarvalho/tin-dog/tree/master/images/post tindog)
+![tindog post](https://github.com/WanCarvalho/tin-dog/blob/master/images/post%20tindog.png)
